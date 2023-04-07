@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ColorComponent } from './components/color/color.component';
 @NgModule({
   declarations: [
     AppComponent,
     NaviComponent,
-    BrandComponent
+    BrandComponent,
+    ColorComponent
   ],
   imports: [
     BrowserModule,
